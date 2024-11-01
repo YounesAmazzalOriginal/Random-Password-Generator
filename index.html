@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <div class="Container">
+      <h1>Random Password Generator</h1>
+      <div class="div">
+        <input
+          type="range"
+          class="rangeInput"
+          oninput="rangeFunc()"
+          min="0"
+          max="30"
+          value="0"
+        />
+        <span class="rangeValueSpan">0</span>
+      </div>
+      <div class="inputContainer">
+        <input
+          class="generateArea"
+          type="text"
+          placeholder="Password"
+          disabled
+        />
+        <button class="ThemeChanger">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+      </div>
+    </div>
+  </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Password Generator</title>
+    <link class="styleLink" rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playwrite+DE+Grund:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+</html>
